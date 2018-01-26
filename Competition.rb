@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 $LOAD_PATH << "."
-$LOAD_PATH << "src/"
+$LOAD_PATH << "policy/"
 
 require "set"
 require "benchmark"

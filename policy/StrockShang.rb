@@ -1,8 +1,9 @@
 # -*- coding: iso-8859-1 -*-
+
 class StrockShang
   
   def initialize
-    file = File.open("../data/arbre5.txt", "r")
+    file = File.open("arbre5.txt", "r")
     @total = 0
     @prevision = eval(file.read)
     @test = true
